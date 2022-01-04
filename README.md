@@ -41,3 +41,11 @@ We are playing a game with the stones. On each turn, we choose the ***heaviest t
 
 At the end of the game, there is ***at most one*** stone left.<br>
 Return the smallest ***possible weight of the left stone***. If there are no stones left, return `0`.
+
+<br>
+
+## Question 1496: Path Crossing
+Given a string path, where `path[i] =` `N`, `S`, `E` or `W`, each representing moving one unit north, south, east, or west, respectively. You start at the origin `(0, 0)` on a 2D plane and walk on the path specified by path.
+<br>
+Return ***true*** if the path crosses itself at any point, that is, if at any time you are on a location you have previously visited. Return ***false*** otherwise.
+
