@@ -49,3 +49,9 @@ Given a string path, where `path[i] =` `N`, `S`, `E` or `W`, each representing m
 <br>
 Return ***true*** if the path crosses itself at any point, that is, if at any time you are on a location you have previously visited. Return ***false*** otherwise.
 
+<br>
+
+## Question 1162: As Far from Land as Possible
+Given an `n x n grid` containing only values `0` and `1`, where 0 represents water and 1 represents land, find a water cell such that its distance to the nearest land cell is maximized, and return the distance. If no land or water exists in the grid, return `-1`. <br>
+The distance used in this problem is the Manhattan distance: the distance between two cells `(x0, y0)` and `(x1, y1)` is `|x0 - x1| + |y0 - y1|`.
+
