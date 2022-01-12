@@ -55,3 +55,12 @@ Return ***true*** if the path crosses itself at any point, that is, if at any ti
 Given an `n x n grid` containing only values `0` and `1`, where 0 represents water and 1 represents land, find a water cell such that its distance to the nearest land cell is maximized, and return the distance. If no land or water exists in the grid, return `-1`. <br>
 The distance used in this problem is the Manhattan distance: the distance between two cells `(x0, y0)` and `(x1, y1)` is `|x0 - x1| + |y0 - y1|`.
 
+<br>
+
+## Question 1609: Even Odd Tree
+A binary tree is named Even-Odd if it meets the following conditions: <br>
+* The root of the binary tree is at level index 0, its children are at level index `1`, their children are at level index `2`, etc. <br>
+* For every ***even-indexed level***, all nodes at the level have `odd` integer values in ***strictly increasing*** order (from left to right). <br>
+* For every ***odd-indexed level***, all nodes at the level have `even` integer values in ***strictly decreasing*** order (from left to right). <br>
+
+Given the `root` of a binary tree, return ***true*** if the binary tree is Even-Odd, otherwise return ***false***.
