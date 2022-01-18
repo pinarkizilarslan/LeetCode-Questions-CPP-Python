@@ -18,8 +18,10 @@ Output: 3
 Input: s = "(1+(4+5+2)-3)+(6+8)"
 Output: 23
 `
-
 <br>
+
+
+
 
 ## Question 432: All O'one Data Structure
 Design a data structure to store the strings' count with the ability to return the strings with minimum and maximum counts.
@@ -30,8 +32,19 @@ Implement the AllOne class:
 * `dec(String key)` Decrements the count of the string `key` by `1`. If the count of `key` is `0` after the decrement, remove it from the data structure. It is guaranteed that `key` exists in the data structure before the decrement.
 * `getMaxKey()` Returns one of the keys with the maximal count. If no element exists, return an empty string `""`.
 * `getMinKey()` Returns one of the keys with the minimum count. If no element exists, return an empty string `""`.
-
 <br>
+
+
+
+
+## Question 797: All Paths From Source to Target
+Given a directed acyclic graph (***DAG***) of `n` nodes labeled from `0` to `n - 1`, find all possible paths from node 0 to node n - 1 and return them in ***any order***.
+<br>
+The graph is given as follows: graph[i] is a list of all nodes you can visit from node i (i.e., there is a directed edge from node i to node `graph[i][j]`).
+<br><br><br>
+
+
+
 
 ## Question 1046: Last Stone Weight
 You are given an array of integers `stones` where `stones[i]` is the weight of the i<sup>th</sup> stone. <br>
@@ -41,21 +54,29 @@ We are playing a game with the stones. On each turn, we choose the ***heaviest t
 
 At the end of the game, there is ***at most one*** stone left.<br>
 Return the smallest ***possible weight of the left stone***. If there are no stones left, return `0`.
+<br><br><br>
 
-<br>
+
+
+
+## Question 1162: As Far from Land as Possible
+Given an `n x n grid` containing only values `0` and `1`, where 0 represents water and 1 represents land, find a water cell such that its distance to the nearest land cell is maximized, and return the distance. If no land or water exists in the grid, return `-1`. <br><br>
+The distance used in this problem is the Manhattan distance: <br>
+The distance between two cells `(x0, y0)` and `(x1, y1)` is `|x0 - x1| + |y0 - y1|`.
+<br><br><br>
+
+
+
 
 ## Question 1496: Path Crossing
 Given a string path, where `path[i] =` `N`, `S`, `E` or `W`, each representing moving one unit north, south, east, or west, respectively. You start at the origin `(0, 0)` on a 2D plane and walk on the path specified by path.
-<br>
-Return ***true*** if the path crosses itself at any point, that is, if at any time you are on a location you have previously visited. Return ***false*** otherwise.
+<br><br>
+Return ***true*** if the path crosses itself at any point, that is, if at any time you are on a location you have previously visited. <br>
+Return ***false*** otherwise.
+<br><br><br>
 
-<br>
 
-## Question 1162: As Far from Land as Possible
-Given an `n x n grid` containing only values `0` and `1`, where 0 represents water and 1 represents land, find a water cell such that its distance to the nearest land cell is maximized, and return the distance. If no land or water exists in the grid, return `-1`. <br>
-The distance used in this problem is the Manhattan distance: the distance between two cells `(x0, y0)` and `(x1, y1)` is `|x0 - x1| + |y0 - y1|`.
 
-<br>
 
 ## Question 1609: Even Odd Tree
 A binary tree is named Even-Odd if it meets the following conditions: <br>
@@ -64,3 +85,4 @@ A binary tree is named Even-Odd if it meets the following conditions: <br>
 * For every ***odd-indexed level***, all nodes at the level have `even` integer values in ***strictly decreasing*** order (from left to right). <br>
 
 Given the `root` of a binary tree, return ***true*** if the binary tree is Even-Odd, otherwise return ***false***.
+<br>
