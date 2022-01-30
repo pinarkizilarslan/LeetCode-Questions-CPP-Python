@@ -70,6 +70,14 @@ The graph is given as follows: graph[i] is a list of all nodes you can visit fro
 
 
 
+## Question 1029: Two City Scheduling
+A company is planning to interview `2n` people. Given the array costs where `costs[i] = [aCosti, bCosti]`, the cost of flying the `ith` person to city ***a*** is aCosti, and the cost of flying the ith person to city ***b*** is bCosti. <br>
+Return ***the minimum cost to fly every person to a city*** such that exactly `n` people arrive in each city.
+<br><br><br>
+
+
+
+
 ## Question 1046: Last Stone Weight
 You are given an array of integers `stones` where `stones[i]` is the weight of the i<sup>th</sup> stone. <br>
 We are playing a game with the stones. On each turn, we choose the ***heaviest two stones*** and smash them together. Suppose the heaviest two stones have weights `x` and `y` with `x <= y`. The result of this smash is:
