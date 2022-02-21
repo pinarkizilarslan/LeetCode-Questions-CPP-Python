@@ -117,6 +117,15 @@ Level `1` of videos are all watched videos by your friends, level `2` of videos 
 
 
 
+## Question 1489: Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree
+Given a weighted undirected connected graph with ***n*** vertices numbered from `0` to `n - 1`, and an array ***edges*** where `edges[i] = [ai, bi, weighti]` represents a bidirectional and weighted edge between nodes `ai` and `bi`. A minimum spanning tree (MST) is a subset of the graph's edges that connects all vertices without cycles and with the minimum possible total edge weight. <br><br>
+Find ***all the critical and pseudo-critical edges in the given graph's minimum spanning tree (MST)***. An MST edge whose deletion from the graph would cause the MST weight to increase is called a ***critical edge***. On the other hand, a pseudo-critical edge is that which can appear in some MSTs but not all. <br><br>
+Note that you can return the indices of the edges in any order.
+<br><br><br><br>
+
+
+
+
 ## Question 1496: Path Crossing
 Given a string path, where `path[i] =` `N`, `S`, `E` or `W`, each representing moving one unit north, south, east, or west, respectively. You start at the origin `(0, 0)` on a 2D plane and walk on the path specified by path.
 <br><br>
